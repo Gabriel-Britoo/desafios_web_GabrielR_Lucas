@@ -1,1 +1,39 @@
 /* Gabriel Reis e Lucas Randal - 23.05.2024 */
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cards {
+    display: flex;
+    grid-template-columns: repeat(2, 650px); 
+    gap: 20px; 
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 35px;
+    width:430px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
